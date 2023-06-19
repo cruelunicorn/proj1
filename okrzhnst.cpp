@@ -5,9 +5,9 @@ int main()
 {
 	double x, y, r, d;
 	setlocale (LC_ALL, "Russian");
-	cout << "¬ведите через пробел координаты точки"<<endl;
+	cout << "¬ведите через пробел координаты точки" << endl;
 	cin >> x >> y ;
-	cout << "¬ведите радиус окружности"<<endl;
+	cout << "¬ведите радиус окружности с центром (0, 0)" << endl;
 	cin >> r;
 	d = pow((x*x + y*y) , 0.5);
 		if (d <= r)
